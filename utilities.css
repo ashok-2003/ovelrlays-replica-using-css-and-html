@@ -1,0 +1,151 @@
+/* one things ki jo ham text ko import kate hai link dono me kya farak hai ?
+so jo ham import karte hai usse ham css walle file me dalte hai and jo link hai usse ham html walle me dallte hai  -->
+
+
+<!-- agar koi bhi image Conatiner se overflow kar raha hai to ham oveerflow ko hidden kr ke uska 
+overflow katam kr sakte hai aur HAM CHAHHE TO UNHHE  scroll bhi kr sakte the so wo div 
+me scrool hote rahta hai uski wajag se which will be more better   -->
+
+<!-- now ham log dekhnge honge ki jab ham koi websitek ko phone me dekhte hai to 
+wo alag dikhati hai pc walle se kuch option wagera gayab hoti hai jo ki ham vh  vw lagr kr kare to wo chota scren 
+pr ayyega same chhez bhale hi chote chhez me ayye man lo bahut sarre image s hai so wo chhote scrren pr chotii size me ayyigi 
+jinka koi value nahi reh jayegga as itna chota image ka fayda hi kya so usse badiya ham chaenge ki usse slide scrool hi 
+kar le lekin size to sahi ho so usse ke liye ham media screen ka use krte hai so takki ye width se jasse chize kam ho
+so wo apply ho jayye so we will use     
+MEDIA CREEN AND (MAX-WIDHT: ) IS TYPE KA LAYOUT  */
+*{
+    margin: 0;
+    padding: 0;
+}
+#simpletext{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 3vh;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    font-size: 1vw;
+
+}
+.centertext{
+
+    align-items: center;
+    justify-content: center;
+}
+.headcontent{
+    margin-top: 1vh;
+    margin-left: 3vw;
+    display: inline-block;
+    height: 7vh;
+}
+.c1{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+.s1{
+    position: relative;
+    margin-left: 8vw;
+    margin-right: 30vw;
+    margin-top: 3vh;
+    padding: 0px 7px;
+    border: 1px black solid ;
+    border-radius: 6px;
+    font-family: 'Inconsolata', monospace;
+}
+.o1{
+    display: inline-block;
+    height: 3vh;
+    padding: 3vh 1vw;
+}
+.s2{
+    width: 99vw;
+}
+.i1{
+    display: flex;
+    width: 100vw;
+    height: 78vh;
+    background-image: url(https://cdn.shopify.com/s/files/1/0566/0839/1368/files/BANNER_1_1920x.jpg?v=1668594397);
+    background-repeat: none;
+    background-size: cover;
+}
+.t2{
+    display: inline;
+    /* z-index: 1; */
+    position: relative;
+    left: 29.5vw;
+    top: 24vh;
+    height: 30vh;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Jost', sans-serif 
+    
+}
+.t3{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    top: 34vh;
+    right: 3vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif 
+    
+    
+}
+.t4{
+    display: block;
+    /* background-color: yellow; */
+    height: 10vh;
+    margin-top: 4vh;
+    padding-left: 3vw;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 3em;
+}
+.im2{
+    margin: 1vh 1vw;
+}
+.im3{
+    width: 23vw;
+    margin-left: 1vw;
+    border: 1px solid grey;
+    border-radius: 7px;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 0.7s;
+}
+.t5{
+    text-align: center;
+    text-transform: capitalize;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 100vw;
+}
+.f2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 100vw;
+    text-transform: capitalize;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.8em;
+}

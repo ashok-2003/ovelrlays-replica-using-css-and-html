@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+/* uska font font-family: 'Inconsolata', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+/* uska font font-family: 'Jost', sans-serif */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+}
+.head{
+    z-index: 1;
+    display: flex;
+    direction: row;
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    /* i dont fucking konow ki sticky karke isse upar kaise fixed karu mc  */
+}
+main{
+    background-size: cover;
+    display: inline-block;
+    width: 100vw;
+    /* background-color: rgb(173, 219, 168); */
+    margin-top: 13vh;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bolder;
+}
+input{
+    width: 21vw;
+    height: 3vh;
+}
+placeholder{
+    margin-left: 1vw;
+}
+.bo1{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-transform: uppercase;
+    display: block
+}
+.bo2{
+    display: flex;
+}
+.im3:hover{
+    /* so accutally ham isme hover krne pr imge change krke dusra lana chate the but uske liye sabko alag alag namm dekr image scr 
+    padta so will take to much time but agar app cahhe to kar sakte hai usse bhi main nahi kr raha coz man nahi hai  */
+    width: 22vw;
+}
+/* .m5{
+    width: 100vw;
+    margin-top: 2vh;
+} */
